@@ -3,6 +3,7 @@
     margin: 2em;
     padding: 2em;
     border-radius: 1.8em;
+    flex: 1;
 }
 
 .img-container {
@@ -93,4 +94,12 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1.2em;
     }
+
+    /* .catstyle:last-child .img-container img {
+        width: 80%;
+    } */
+}
+
+.catphotos {
+    display: flex;
 }
