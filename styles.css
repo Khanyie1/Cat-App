@@ -70,22 +70,15 @@
 
 /* Making the application responsive */
 
-@media (min-width : 700px){
+@media screen and (min-width:270px) and (max-width: 959px) {
     body {
-        background-color: rgb(176, 30, 105);
+        background-color: antiquewhite;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1.2em;
     }
-    .catphotos {
-        display: flex;
-    }
-
-    .catstyle, .img-container img {
-        width: 90%;
-    }
 }
 
-@media (min-width: 960px){
+@media (min-width: 960px) {
     body {
         background-color: rgb(9, 86, 110);
         font-family: Georgia, 'Times New Roman', Times, serif;
